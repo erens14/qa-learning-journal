@@ -2,61 +2,92 @@
 
 ## Scenario
 
-Describe the feature / module being tested and the context of the issue.
+Describe the feature, module, or business process being tested and provide the context of the issue.
 
-- What feature is being tested?
-- What is the user trying to do?
-- What is the expected workflow?
+Consider documenting:
+
+- What feature or module is being tested?
+- What is the user trying to accomplish?
+- What is the expected workflow or business process?
+- What conditions led to the issue being discovered?
 
 ---
 
 ## Observation
 
-Describe what actually happens during testing.
+Describe what actually happened during testing.
+
+Include:
 
 - Current system behavior
-- What is different from expectation
+- Differences between actual and expected behavior
 - Any inconsistencies found
+- Unexpected system responses
+- Missing validations or controls
 
 ---
 
 ## Why This Matters
 
-Explain the impact of the issue.
+Explain why the finding is important.
 
-- User impact
-- System impact
-- Data impact
-- Business impact
+Consider the impact on:
+
+### User Impact
+- How does it affect end users?
+
+### System Impact
+- Does it affect system reliability or functionality?
+
+### Data Impact
+- Can it cause incorrect, inconsistent, or missing data?
+
+### Business Impact
+- Can it affect operations, reporting, compliance, or decision-making?
 
 ---
 
 ## QA Learning
 
-List what should be verified in similar cases:
+Document lessons that can be applied to future testing activities.
 
-- Validation points
-- Edge cases
-- Business rules
+Examples:
+
+- Validation points that should always be checked
+- Edge cases worth testing
+- Business rules that require verification
 - System behavior expectations
+- Areas that commonly introduce regressions
 
 ---
 
 ## UX / System Consideration
 
-Optional section for improvement ideas:
+(Optional)
+
+Describe possible improvements from a usability or system design perspective.
+
+Examples:
 
 - Better design approach
 - Workflow simplification
-- System improvement suggestion
+- More consistent behavior across modules
+- Improved error handling or user feedback
+- Better validation mechanisms
 
 ---
 
 ## Key Takeaway
 
-Summarize the main lesson learned in 1–3 sentences.
+Summarize the primary lesson learned in 1–3 sentences.
 
 Focus on:
-- principle
-- pattern
-- QA mindset insight
+
+- Testing principles
+- Reusable testing patterns
+- QA mindset and analytical thinking
+- Insights that can help future investigations
+
+Example:
+
+> A feature may appear functional from the user interface, but deeper validation is often required to verify business rules, data consistency, and system integrity.
