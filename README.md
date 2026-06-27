@@ -1,55 +1,87 @@
-# QA Learning Journal
+# 📚 Learning Journal
 
-This repository contains my QA learning notes based on real-world testing experience in enterprise applications, particularly in logistics and business systems.
+Welcome to my personal learning journal.
 
-All lessons are stored in a single folder for simplicity and fast access.
+This repository is my technical knowledge base, where I document concepts, lesson learned, technical notes, and practical insights gained through professional work, self-study, books, research papers, and technical articles.
 
----
-
-## 🎯 Purpose
-
-The goal of this repository is to document my growth as a QA Engineer, focusing on:
-
-- Understanding business rules in real systems
-- Validating data consistency across modules
-- Testing reports beyond UI appearance
-- Analyzing system behavior and edge cases
-- Capturing requirement gaps from real usage
+Rather than collecting information, the goal of this repository is to improve my understanding by explaining concepts in my own words and documenting what I learn over time.
 
 ---
 
-## 📁 Structure
+## Purpose
 
-All learning notes are stored in one folder:
-> lessons
+This repository exists to:
 
----
-
-## 🧠 Key Learning Outcome
-
-This repository reflects my transition from:
-
-> Basic functional testing (checking if features work)
-
-to
-
-> System-level QA thinking (understanding how and why systems behave in a certain way)
-
-Focus areas include:
-- Business rule validation
-- Data integrity and dependencies
-- Reporting accuracy and performance
-- User experience and system feedback
-- Requirement analysis and gap identification
+* Document technical knowledge
+* Record lesson learned from work and self-study
+* Build a personal engineering knowledge base
+* Improve technical writing skills
+* Track long-term learning progress
 
 ---
 
-## ⚠️ Note
+## Learning Areas
 
-All content is written as generalized learning insights based on testing experience and does not contain any confidential or proprietary company data.
+## Learning Areas
+
+This repository currently focuses on:
+
+- Quality Assurance
+- Cyber Security
+
+Additional topics may be included as my learning journey evolves.
 
 ---
 
-## 📌 Goal
+## Note Templates
 
-To continuously improve my QA thinking, not only in finding defects, but also in understanding system behavior, business logic, and risk impact.
+To keep notes consistent and easy to review, this repository uses reusable templates for different types of learning materials.
+
+Available templates can be found in the templates/ directory.
+
+Current templates include:
+
+- Article Summary Template
+- QA Lesson Learned
+(More templates will be added as the repository grows.)
+
+---
+
+## Naming Convention
+
+File names use lowercase letters and hyphens (`-`) for consistency.
+
+Examples:
+
+```text
+verifying-sorting-functionality.md
+requirement-gathering-reveals-more-than-bugs.md
+phishing-resistant-authentication.md
+```
+
+If multiple sources cover the same topic:
+
+```text
+phishing-resistant-authentication-nist.md
+phishing-resistant-authentication-microsoft.md
+```
+
+---
+
+## Learning Philosophy
+
+> "Learning becomes valuable when knowledge is transformed into understanding."
+
+Every note in this repository reflects my current understanding at the time it was written.
+
+As I gain more experience, some notes may be updated, corrected, or expanded.
+
+The objective is continuous learning rather than creating perfect documentation.
+
+---
+
+## Disclaimer
+
+This repository represents my personal learning journey.
+
+The content is intended for educational purposes and personal reference. Some explanations may evolve as my knowledge and experience continue to grow.
