@@ -22,8 +22,6 @@ This repository exists to:
 
 ## Learning Areas
 
-## Learning Areas
-
 This repository currently focuses on:
 
 - Quality Assurance
@@ -43,6 +41,7 @@ Current templates include:
 
 - Article Summary Template
 - QA Lesson Learned
+  
 (More templates will be added as the repository grows.)
 
 ---
