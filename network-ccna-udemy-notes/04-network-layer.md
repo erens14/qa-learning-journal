@@ -218,7 +218,6 @@ Diagram :
 ![Unicast Traffic Diagram](../images/network-traffic-diagrams/unicast-traffic-diagram.jpg)
 
 ![Unicast Traffic with Multiple Host Diagram](../images/network-traffic-diagrams/unicast-multiple-host-diagram.jpg)
----
 
 ## Broadcast
 
