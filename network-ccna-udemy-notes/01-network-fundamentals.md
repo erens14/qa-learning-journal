@@ -1,6 +1,33 @@
 # Network Fundamentals
 
----
+## Table of Contents
+- [Network Fundamentals](#network-fundamentals)
+  - [Table of Contents](#table-of-contents)
+  - [Network Characteristics](#network-characteristics)
+    - [Topology](#topology)
+    - [Speed](#speed)
+    - [Cost](#cost)
+    - [Security](#security)
+    - [Availability](#availability)
+    - [Scalability](#scalability)
+    - [Reliability](#reliability)
+  - [OSI Model](#osi-model)
+    - [Data Transmission Process](#data-transmission-process)
+    - [OSI Layers](#osi-layers)
+    - [OSI Mnemonic](#osi-mnemonic)
+  - [TCP/IP Suite](#tcpip-suite)
+    - [OSI vs TCP/IP](#osi-vs-tcpip)
+    - [Protocol Data Unit (PDU)](#protocol-data-unit-pdu)
+  - [Upper OSI Layers](#upper-osi-layers)
+    - [Layer 7 – Application](#layer-7--application)
+    - [Layer 6 – Presentation](#layer-6--presentation)
+    - [Layer 5 – Session](#layer-5--session)
+  - [Lower OSI Layers](#lower-osi-layers)
+    - [Layer 4 – Transport](#layer-4--transport)
+    - [Layer 3 – Network](#layer-3--network)
+    - [Layer 2 – Data Link](#layer-2--data-link)
+    - [Layer 1 – Physical](#layer-1--physical)
+  - [My Takeaways](#my-takeaways)
 
 ## Network Characteristics
 
@@ -40,17 +67,13 @@ The network should be designed so it can grow without requiring a complete redes
 
 The network should consistently provide stable and dependable communication.
 
----
-
-# OSI Model
+## OSI Model
 
 The **OSI (Open Systems Interconnection) Model** is a general-purpose framework that explains how computers communicate over a network.
 
 It consists of **seven layers**, where each layer performs a specific responsibility.
 
----
-
-## Data Transmission Process
+### Data Transmission Process
 
 Example: Sending an email
 
@@ -117,7 +140,7 @@ This process is known as:
 
 ---
 
-## OSI Layers
+### OSI Layers
 
 | Layer | Name         | Main Information            | Common Device |
 | ----: | ------------ | --------------------------- | ------------- |
@@ -131,7 +154,7 @@ This process is known as:
 
 ---
 
-## OSI Mnemonic
+### OSI Mnemonic
 
 Remember the OSI layers from Layer 1 to Layer 7:
 
@@ -139,7 +162,7 @@ Remember the OSI layers from Layer 1 to Layer 7:
 
 ---
 
-# TCP/IP Suite
+## TCP/IP Suite
 
 The TCP/IP protocol suite was developed by the **U.S. Department of Defense (DoD)** through **ARPA (Advanced Research Projects Agency)**.
 
@@ -147,7 +170,7 @@ TCP/IP is the networking model used by the modern Internet.
 
 ---
 
-## OSI vs TCP/IP
+### OSI vs TCP/IP
 
 | OSI Model    | TCP/IP Stack |
 | ------------ | ------------ |
@@ -161,7 +184,7 @@ TCP/IP is the networking model used by the modern Internet.
 
 ---
 
-## Protocol Data Unit (PDU)
+### Protocol Data Unit (PDU)
 
 When two hosts communicate, they exchange **Protocol Data Units (PDUs)**.
 
@@ -174,9 +197,9 @@ When two hosts communicate, they exchange **Protocol Data Units (PDUs)**.
 
 ---
 
-# Upper OSI Layers
+## Upper OSI Layers
 
-## Layer 7 – Application
+### Layer 7 – Application
 
 * Provides network services to end-user applications.
 * Allows users to interact with network resources.
@@ -184,7 +207,7 @@ When two hosts communicate, they exchange **Protocol Data Units (PDUs)**.
 
 ---
 
-## Layer 6 – Presentation
+### Layer 6 – Presentation
 
 Responsible for ensuring that information sent from the Application layer can be correctly interpreted by the receiving device.
 
@@ -196,7 +219,7 @@ Responsibilities include:
 
 ---
 
-## Layer 5 – Session
+### Layer 5 – Session
 
 Responsible for managing communication sessions between hosts.
 
@@ -208,9 +231,9 @@ Responsibilities include:
 
 ---
 
-# Lower OSI Layers
+## Lower OSI Layers
 
-## Layer 4 – Transport
+### Layer 4 – Transport
 
 Responsible for:
 
@@ -226,7 +249,7 @@ Protocols:
 
 ---
 
-## Layer 3 – Network
+### Layer 3 – Network
 
 Responsible for communication between different networks.
 
@@ -247,7 +270,7 @@ Device:
 
 ---
 
-## Layer 2 – Data Link
+### Layer 2 – Data Link
 
 Responsible for communication within the same local network.
 
@@ -268,7 +291,7 @@ Device:
 
 ---
 
-## Layer 1 – Physical
+### Layer 1 – Physical
 
 Represents the physical components used to transmit data.
 
@@ -287,7 +310,7 @@ Responsibilities:
 
 ---
 
-# My Takeaways
+## My Takeaways
 
 * The OSI model provides a conceptual framework for understanding network communication.
 * The TCP/IP model is the practical networking model used by the Internet.

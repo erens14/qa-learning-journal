@@ -1,8 +1,23 @@
 # Transport Layer Notes (TCP & UDP)
 
----
+## Table of Contents
+- [Transport Layer Notes (TCP \& UDP)](#transport-layer-notes-tcp--udp)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Main Responsibilities](#main-responsibilities)
+    - [End-to-End Communication](#end-to-end-communication)
+    - [Segmentation \& Reassembly](#segmentation--reassembly)
+    - [Flow Control](#flow-control)
+    - [Multiplexing](#multiplexing)
+  - [Port Numbers](#port-numbers)
+  - [Stateful Firewall](#stateful-firewall)
+  - [TCP](#tcp)
+    - [TCP Three-Way Handshake](#tcp-three-way-handshake)
+  - [UDP](#udp)
+  - [TCP vs UDP](#tcp-vs-udp)
+  - [My Takeaways](#my-takeaways)
 
-# Overview
+## Overview
 
 The **Transport Layer (Layer 4)** is responsible for delivering data between applications running on different hosts.
 
@@ -17,15 +32,15 @@ Choosing between them depends on whether reliability or speed is the priority.
 
 ---
 
-# Main Responsibilities
+## Main Responsibilities
 
-## End-to-End Communication
+### End-to-End Communication
 
 Provides communication between applications running on different devices instead of simply sending packets between networks.
 
 ---
 
-## Segmentation & Reassembly
+### Segmentation & Reassembly
 
 Large pieces of application data are divided into smaller segments before transmission.
 
@@ -33,7 +48,7 @@ The receiving host reassembles those segments into the original data.
 
 ---
 
-## Flow Control
+### Flow Control
 
 TCP prevents the sender from overwhelming the receiver by controlling how much data can be sent at one time.
 
@@ -41,7 +56,7 @@ This helps maintain stable communication.
 
 ---
 
-## Multiplexing
+### Multiplexing
 
 A computer can communicate with multiple services simultaneously.
 
@@ -57,7 +72,7 @@ Each session remains independent.
 
 ---
 
-# Port Numbers
+## Port Numbers
 
 Common ports I should remember:
 
@@ -89,7 +104,7 @@ Web Server
 
 ---
 
-# Stateful Firewall
+## Stateful Firewall
 
 A stateful firewall doesn't inspect packets independently.
 
@@ -108,7 +123,7 @@ This explains why return traffic is usually accepted without creating another fi
 
 ---
 
-# TCP
+## TCP
 
 TCP is designed for **reliable communication**.
 
@@ -132,7 +147,7 @@ Typical use cases:
 
 ---
 
-## TCP Three-Way Handshake
+### TCP Three-Way Handshake
 
 Before sending data, TCP establishes a connection.
 
@@ -150,7 +165,7 @@ Once the handshake finishes, both devices can exchange data.
 
 ---
 
-# UDP
+## UDP
 
 UDP is designed for **speed**.
 
@@ -175,7 +190,7 @@ Occasional packet loss is usually acceptable because retransmission would introd
 
 ---
 
-# TCP vs UDP
+## TCP vs UDP
 
 | Feature         | TCP    | UDP     |
 | --------------- | ------ | ------- |
@@ -189,7 +204,7 @@ Occasional packet loss is usually acceptable because retransmission would introd
 
 ---
 
-# My Takeaways
+## My Takeaways
 
 * The Transport Layer is responsible for communication **between applications**, not just between devices.
 * IP addresses identify **where** data should go, while port numbers identify **which application** should receive it.

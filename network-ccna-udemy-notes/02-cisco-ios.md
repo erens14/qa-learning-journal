@@ -1,12 +1,27 @@
 # Cisco IOS
 
----
+## Table of Contents
+- [Cisco IOS](#cisco-ios)
+  - [Table of Contents](#table-of-contents)
+  - [Connecting to a Cisco Device](#connecting-to-a-cisco-device)
+  - [SSH vs Telnet](#ssh-vs-telnet)
+  - [AAA](#aaa)
+  - [Network Management Methods](#network-management-methods)
+    - [Out-of-Band Management](#out-of-band-management)
+    - [In-Band Management](#in-band-management)
+  - [Initial Connection](#initial-connection)
+  - [Basic Cisco CLI Commands](#basic-cisco-cli-commands)
+  - [Configuration Management](#configuration-management)
+    - [Save Running Configuration](#save-running-configuration)
+    - [Erase Startup Configuration](#erase-startup-configuration)
+    - [Backup Configuration](#backup-configuration)
+  - [My Takeaways](#my-takeaways)
+
 
 ## Connecting to a Cisco Device
 
 Cisco devices are commonly managed using **PuTTY**.
 
----
 
 ## SSH vs Telnet
 
@@ -20,7 +35,6 @@ Cisco devices are commonly managed using **PuTTY**.
 * Unencrypted
 * Not recommended for production environments
 
----
 
 ## AAA
 
@@ -31,8 +45,6 @@ AAA stands for:
 * Authentication
 * Authorization
 * Accounting
-
----
 
 ## Network Management Methods
 
@@ -45,13 +57,9 @@ Advantages:
 * More secure
 * Still accessible when the production network is unavailable
 
----
-
 ### In-Band Management
 
 Uses the same network as normal user traffic.
-
----
 
 ## Initial Connection
 
@@ -73,7 +81,7 @@ For USB console cables:
 
 ---
 
-# Basic Cisco CLI Commands
+## Basic Cisco CLI Commands
 
 | Command                          | Description                                         |                                                 |
 | -------------------------------- | --------------------------------------------------- | ----------------------------------------------- |
@@ -85,11 +93,9 @@ For USB console cables:
 | `do`                             | Execute privileged commands from Configuration mode |                                                 |
 | `                                | `                                                   | Filter command output using regular expressions |
 
----
+## Configuration Management
 
-# Configuration Management
-
-## Save Running Configuration
+### Save Running Configuration
 
 After making configuration changes, save them permanently:
 
@@ -103,9 +109,7 @@ or simply:
 copy run start
 ```
 
----
-
-## Erase Startup Configuration
+### Erase Startup Configuration
 
 Older Cisco devices:
 
@@ -119,9 +123,7 @@ Newer Cisco devices:
 erase startup-config
 ```
 
----
-
-## Backup Configuration
+### Backup Configuration
 
 Save the running configuration into Flash memory:
 
@@ -141,9 +143,7 @@ View stored files:
 show flash
 ```
 
----
-
-# My Takeaways
+## My Takeaways
 
 * SSH should always be preferred over Telnet because it encrypts management traffic.
 * Always save the running configuration after making changes to prevent configuration loss after a reboot.
