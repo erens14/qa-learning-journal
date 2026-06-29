@@ -1,7 +1,7 @@
 # Article Summary — Zero Trust Architecture
 
-**Source:** National Institute of Standards and Technology (NIST)
-**Author:** NIST
+**Source:** National Institute of Standards and Technology (NIST)  
+**Author:** NIST  
 **Link:** https://www.nist.gov/blogs/taking-measure/zero-trust-cybersecurity-never-trust-always-verify
 
 ---

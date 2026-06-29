@@ -1,7 +1,7 @@
 # Article Summary — From Blocking to Breaking the Chain: Defending Against AI-Powered Social Engineering
 
-**Source:** The Hacker News
-**Author:** Bobby Ford
+**Source:** The Hacker News  
+**Author:** Bobby Ford  
 **Link:** https://thehackernews.com/expert-insights/2026/06/beyond-blocking-disrupting-social.html
 
 ---
