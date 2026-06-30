@@ -1,4 +1,4 @@
-# 1. The IP Headers
+# The IP Headers
 
 ## Overview
 

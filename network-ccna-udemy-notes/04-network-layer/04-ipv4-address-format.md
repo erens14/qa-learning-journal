@@ -1,4 +1,4 @@
-# 4. IPv4 Address Format
+# IPv4 Address Format
 
 ## Overview
 

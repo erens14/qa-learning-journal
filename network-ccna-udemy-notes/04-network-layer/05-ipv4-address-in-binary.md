@@ -1,4 +1,4 @@
-# 5. IPv4 Address in Binary
+# IPv4 Address in Binary
 
 ## Overview
 

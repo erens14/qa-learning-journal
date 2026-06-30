@@ -1,4 +1,4 @@
-# 3. Decimal to Binary Conversion
+# Decimal to Binary Conversion
 
 ## Overview
 

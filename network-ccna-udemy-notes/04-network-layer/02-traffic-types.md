@@ -1,4 +1,4 @@
-# 2. Traffic Types
+# Traffic Types
 
 ## Overview
 

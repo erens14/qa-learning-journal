@@ -1,4 +1,4 @@
-# 6. Subnet Masks
+# Subnet Masks
 
 ## Overview
 
