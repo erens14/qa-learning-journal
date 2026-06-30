@@ -92,7 +92,7 @@ One summary route represents all 256 networks.
 - Improved network scalability.
 - Network failures are isolated, reducing the impact on other networks.
 
-## Lesson Learned
+## My Takeaways
 
 - CIDR replaces fixed Class A, B, and C allocation with flexible subnet sizes.
 - Flexible allocation significantly reduces wasted IPv4 addresses.

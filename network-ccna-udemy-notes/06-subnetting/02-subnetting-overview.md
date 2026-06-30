@@ -137,7 +137,7 @@ As a result:
 - **Do not subtract 2 from the number of subnets** on modern Cisco networks or in the CCNA exam.
 - **Always subtract 2 from the number of hosts**, since the Network Address and Broadcast Address remain reserved.
 
-## Lesson Learned
+## My Takeaways
 
 - Subnetting creates multiple logical networks by borrowing host bits.
 - Borrowing more bits increases the number of subnets but decreases the number of hosts per subnet.
