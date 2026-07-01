@@ -2,7 +2,7 @@
 
 Welcome to my personal learning journal.
 
-This repository is my technical knowledge base, where I document concepts, lesson learned, technical notes, and practical insights gained through professional work, self-study, books, research papers, and technical articles.
+This repository is my technical knowledge base, where I document concepts, lesson learned, technical notes, and practical insights gained through professional work, self-study, and technical articles.
 
 Rather than collecting information, the goal of this repository is to improve my understanding by explaining concepts in my own words and documenting what I learn over time.
 
